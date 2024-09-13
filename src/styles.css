@@ -1,0 +1,189 @@
+/* Configuración general */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8e39e; /* Fondo amarillo pastel */
+    color: #555; /* Color de texto oscuro */
+  }
+  
+  /* Estilos para la barra de navegación */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #bae1ff; /* Azul pastel */
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  }
+  
+  .navbar h1 {
+    margin: 0;
+    font-size: 1.8rem;
+    color: #ffb3ba; /* Rosa pastel */
+  }
+  
+  .navbar .links a {
+    color: #555;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+  }
+  
+  .navbar .links a:hover {
+    color: #ffb3ba; /* Cambia a rosa al hacer hover */
+  }
+  
+  /* Página de inicio */
+  .home {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .home h1 {
+    font-size: 2.5rem;
+    color: #ffb3ba; /* Rosa pastel */
+  }
+  
+  .home p {
+    font-size: 1.2rem;
+    margin-top: 20px;
+    color: #555;
+  }
+  
+  /* Estilos de sección: sobre mí */
+  .home h2 {
+    font-size: 2rem;
+    margin-top: 50px;
+    color: #85aa8d; /* Verde pastel */
+  }
+
+  .intro-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; /* Espacio entre texto e imagen */
+    margin-bottom: 50px;
+  }
+  
+  .intro-text {
+    flex: 1;
+  }
+  
+  .intro-image {
+    flex: 0.5; /* Ajusta el tamaño relativo de la imagen */
+  }
+  
+  .profile-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; /* Hace que la imagen sea circular */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra para darle un efecto elegante */
+    object-fit: cover; /* Hace que la imagen se ajuste correctamente dentro del contenedor circular */
+    transition: transform 0.3s ease;
+  }
+  
+  .profile-image:hover {
+    transform: scale(1.1); /* Añade un efecto de hover para agrandar la imagen cuando el cursor está sobre ella */
+  }
+  
+  .intro-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .about-section {
+    text-align: left;
+    padding: 20px;
+  }
+  
+  /* Página de proyectos */
+  .projects {
+    padding: 50px;
+    text-align: center;
+    background-color: #bae1ff; /* Azul pastel para el fondo */
+    border-radius: 20px;
+  }
+  
+  .projects h1 {
+    font-size: 2.5rem;
+    color: #ffb3ba; /* Rosa pastel */
+  }
+  
+  .projects-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 50px;
+  }
+
+  /* Estilo para la introducción general de los proyectos */
+.projects-introduction {
+    background-color: #f8e39e; /* Fondo amarillo pastel para diferenciarlo */
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .projects-introduction p {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  .projects-introduction strong {
+    color: #f35b6a; /* Usa un color resaltado para los nombres de tecnologías */
+  }
+  
+  /* Tarjetas de proyectos */
+  .project-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    width: 300px;
+    margin: 20px;
+    transition: all 0.3s ease;
+    background-color: #baffc9; /* Fondo verde pastel */
+  }
+  
+  .project-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .project-card h2 {
+    color: #555;
+    font-size: 1.5rem;
+    margin-top: 15px;
+  }
+  
+  .project-card p {
+    color: #555;
+    margin-top: 10px;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-10px);
+    background-color: #ffb3ba; /* Fondo cambia a rosa pastel al hacer hover */
+  }
+  
+  /* Footer opcional */
+  footer {
+    background-color: #baffc9;
+    padding: 20px;
+    text-align: center;
+    color: #555;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 1rem;
+  }
+  
