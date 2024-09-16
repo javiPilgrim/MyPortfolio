@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
+import { FaDownload } from 'react-icons/fa'; // Importación del icono de descarga
 import '../styles.css'; // Asegúrate de que tu archivo de estilos esté importado
-
 
 function Home() {
   return (
@@ -34,9 +34,15 @@ function Home() {
         <p>En 2024 completé el curso Full Stack de la Universidad de Helsinki, donde adquirí experiencia en React, Vite, Node, JavaScript, y bases de datos no relacionales.</p>
         <p>Actualmente, busco oportunidades en las que pueda aplicar y desarrollar mis habilidades en un entorno profesional desafiante.</p>
       </motion.div>
+
+      {/* Enlace de descarga del currículum con icono */}
+      <div className="download-cv">
+        <a href="/Curriculum_Javier_Macias.pdf" download>
+          <FaDownload style={{ marginRight: '8px' }} /> Descarga mi Curriculum
+        </a>
+      </div>
     </div>
   );
 }
 
 export default Home;
-

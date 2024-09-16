@@ -1,5 +1,7 @@
 import { motion } from 'framer-motion';
+import { GrProjects } from 'react-icons/gr'; // Importa el icono de react-icons
 import '../styles.css'; // Asegúrate de que esté conectado a tus estilos
+
 
 const projects = [
   {
@@ -46,7 +48,18 @@ const projects = [
 function Projects() {
   return (
     <div className="projects">
-      <h1>Mis Proyectos</h1>
+      <h1>
+        {/* Icono de proyecto con animación */}
+        <motion.div
+          initial={{ rotate: 0, scale: 1 }}
+          animate={{ rotate: 360, scale: 1 }}
+          transition={{ duration: 2, ease: "easeOut" }}
+          style={{ display: 'inline-block', marginRight: '10px' }}
+        >
+          <GrProjects size={40} color="#4caf50" />
+        </motion.div>
+        Mis Proyectos
+      </h1>
 
       {/* Animación para la introducción general */}
       <motion.div

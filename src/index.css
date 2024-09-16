@@ -65,4 +65,19 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+
+  .download-cv a {
+    display: inline-block;
+    margin-top: 2rem;
+    padding: 0.5rem 1rem;
+    background-color: #4caf50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .download-cv a:hover {
+    background-color: #45a049;
+  }
 }
