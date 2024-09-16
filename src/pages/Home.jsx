@@ -32,7 +32,7 @@ function Home() {
         <p>Después de media vida trabajando en el sector privado socio-sanitario, liderando proyectos y gestionando recursos humanos, en 2021 decidí dar un cambio a mi carrera profesional y comencé a estudiar programación.</p>
         <p>Me especialicé en backend, aprendiendo Java, SQL, Scala, y Python. En 2022, me uní al equipo del BAU en Banco Santander, donde profundicé en Big Data y tecnologías relacionadas.</p>
         <p>En 2024 completé el curso Full Stack de la Universidad de Helsinki, donde adquirí experiencia en React, Vite, Node, JavaScript, y bases de datos no relacionales.</p>
-        <p>Actualmente, busco oportunidades en las que pueda aplicar y desarrollar mis habilidades en un entorno profesional desafiante.</p>
+        <p>Actualmente, busco oportunidades en las que pueda aplicar y desarrollar mis habilidades en un entorno profesional motivante.</p>
       </motion.div>
 
       {/* Enlace de descarga del currículum con icono */}

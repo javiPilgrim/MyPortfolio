@@ -5,19 +5,6 @@ import '../styles.css'; // Asegúrate de que esté conectado a tus estilos
 
 const projects = [
   {
-    title: 'VideoBackendApp',
-    description: (
-      <span>
-        Aplicación para gestionar, organizar y validar películas de un usuario. Puedes ver más detalles en el{' '}
-        <a href="https://videobackendapp.onrender.com/" target="_blank" rel="noopener noreferrer">
-          sitio web del proyecto
-        </a>.
-        Permite registro de usuarios, almacenar películas en una base de datos, marcarlas como vistas/no vistas, y realizar búsquedas en bases de datos externas para añadir nuevos títulos y sus detalles a la colección personal.
-      </span>
-    ),
-    image: 'MiVideoteca.jpg',
-  },
-  {
     title: 'Tiempoy+',
     description: (
       <span>
@@ -31,6 +18,19 @@ const projects = [
     image: 'Tiempo.jpg',
   },
   {
+    title: 'VideoBackendApp',
+    description: (
+      <span>
+        Aplicación para gestionar, organizar y validar películas de un usuario. Puedes ver más detalles en el{' '}
+        <a href="https://videobackendapp.onrender.com/" target="_blank" rel="noopener noreferrer">
+          sitio web del proyecto
+        </a>.
+        Permite registro de usuarios, almacenar películas en una base de datos, marcarlas como vistas/no vistas, y realizar búsquedas en bases de datos externas para añadir nuevos títulos y sus detalles a la colección personal.
+      </span>
+    ),
+    image: 'MiVideoteca.jpg',
+  },
+  {
     title: 'Los Mejores Blogs',
     description: (
       <span>
@@ -38,7 +38,7 @@ const projects = [
         <a href="https://blogslist.onrender.com" target="_blank" rel="noopener noreferrer">
           sitio del proyecto
         </a>.
-        Permite que los usuarios compartan un listado de Blogs.
+        Permite que los usuarios compartan un listado de Blogs de interes.
       </span>
     ),
     image: 'Blogs.jpg',
