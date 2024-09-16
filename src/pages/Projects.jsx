@@ -25,7 +25,7 @@ const projects = [
         <a href="https://videobackendapp.onrender.com/" target="_blank" rel="noopener noreferrer">
           sitio web del proyecto
         </a>.
-        Permite registro de usuarios, almacenar películas en una base de datos, marcarlas como vistas/no vistas, y realizar búsquedas en bases de datos externas para añadir nuevos títulos y sus detalles a la colección personal.
+        Permite registro de usuarios, almacenar películas en una base de datos, marcarlas como vistas/no vistas, y realizar búsquedas en bases de datos externas para añadir nuevos títulos y sus detalles a la colección personal. Para entrar en la aplicacion utiliza usuario: visitante / password: visitante
       </span>
     ),
     image: 'MiVideoteca.jpg',
@@ -38,7 +38,7 @@ const projects = [
         <a href="https://blogslist.onrender.com" target="_blank" rel="noopener noreferrer">
           sitio del proyecto
         </a>.
-        Permite que los usuarios compartan un listado de Blogs de interes.
+        Permite que los usuarios compartan un listado de Blogs de interes. Para entrar en la aplicacion utiliza usuario: visitante / password: visitante
       </span>
     ),
     image: 'Blogs.jpg',
