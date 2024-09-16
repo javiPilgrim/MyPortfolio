@@ -35,7 +35,7 @@ const projects = [
     description: (
       <span>
         Esta aplicación funciona a modo de red social en la que los usuarios publican y valoran los blogs que deseen. Puedes consultar más información en el{' '}
-        <a href="https://www.proyecto2.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://blogslist.onrender.com" target="_blank" rel="noopener noreferrer">
           sitio del proyecto
         </a>.
         Permite que los usuarios compartan un listado de Blogs.
