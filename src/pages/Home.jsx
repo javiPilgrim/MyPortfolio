@@ -17,7 +17,7 @@ function Home() {
             <p>Desarrollador Full Stack con experiencia en crear aplicaciones modernas y eficientes.</p>
           </div>
           <div className="intro-image">
-            <img src='Yo.jpeg' alt="Javier Macías" className="profile-image" />
+            <img src='Yo.jpg' alt="Javier Macías" className="profile-image" />
           </div>
         </div>
       </motion.div>
