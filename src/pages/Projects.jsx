@@ -43,6 +43,19 @@ const projects = [
     ),
     image: 'Blogs.jpg',
   },
+  {
+    title: 'Lingo',
+    description: (
+      <span>
+        Pequeño juego en el que uno o dos jugadores deben adivinar una palabra oculta. Puedes consultar más información en el{' '}
+        <a href="https://lingo-black.vercel.app/" target="_blank" rel="noopener noreferrer">
+          sitio del proyecto
+        </a>.
+        Ingresa directamente en la pagina del juego y pulsa en el boton "Ver Instrucciones" para poder jugar.
+      </span>
+    ),
+    image: 'Lingo.jpg',
+  },
 ];
 
 function Projects() {
