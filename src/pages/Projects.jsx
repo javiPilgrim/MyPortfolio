@@ -5,6 +5,19 @@ import '../styles.css'; // Asegúrate de que esté conectado a tus estilos
 
 const projects = [
   {
+    title: 'Los80s',
+    description: (
+      <span>
+        Juego tipo trivial en el que de forma individual o colectiva (modo varios jugadores) los jugadores deben los jugadores deberan responder a todas las preguntas que se les hagan sobre la década de los 80. Puedes consultar más información en el{' '}
+        <a href="https://los80s.vercel.app/" target="_blank" rel="noopener noreferrer">
+          sitio del proyecto
+        </a>.
+        Ingresa directamente en la pagina del juego y pulsa en el boton "Ver Instrucciones" para poder jugar.
+      </span>
+    ),
+    image: 'portada80s.png',
+  },
+  {
     title: 'Tiempoy+',
     description: (
       <span>
